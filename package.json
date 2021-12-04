@@ -1,0 +1,24 @@
+{
+  "name": "neat-coner",
+  "version": "1.0.0",
+  "description": "e-commarce",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thevindu-Senanayake/neat-corner.git"
+  },
+  "author": "Thevindu_Senanayake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thevindu-Senanayake/neat-corner/issues"
+  },
+  "homepage": "https://github.com/Thevindu-Senanayake/neat-corner#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  }
+}
