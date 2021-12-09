@@ -15,7 +15,7 @@ const {
 router.route('/products').get(getProducts);
 router.route('/product/:productId').get(getSingleProduct);
 
-router.route('/adminproduct/new').post(newProduct);
+router.route('/admin/product/new').post(newProduct);
 router.route('/admin/product/:productId')
 	.put(updateProduct)
 	.delete(deleteProduct);
